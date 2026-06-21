@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #6a4caf, #8b6fdc);
+  padding: 10px;
+  color: white;
+  font-family: Arial;
+}
+
+.left {
+    font-weight: bold;
+}
+
+.navbar input {
+  flex: 1;
+  margin: 0 15px;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+}
+
+.navbar button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}

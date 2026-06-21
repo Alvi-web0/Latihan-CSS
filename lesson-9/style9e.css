@@ -1,0 +1,32 @@
+.shadow-container {
+            box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
+            padding: 10px 15px;
+            display: inline-block;
+            border-radius: 6px;
+            vertical-align: middle;
+        }
+
+        .profile-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .tweet-input {
+            border: none;
+            font-size: 18px;
+            outline: none;
+            width: 250px;
+        }
+
+        .tweet-button {
+            background-color: #1d9bf0;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }

@@ -1,0 +1,60 @@
+.tweet {
+  display: flex;
+  background: #f1f1f1;
+  padding: 15px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.content {
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  gap: 5px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.handle {
+  color: gray;
+}
+
+.text {
+  margin: 5px 0 10px;
+}
+
+.link-box {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  width: 100px;
+  background: #ccc;
+}
+
+.link-content {
+  padding: 10px;
+}
+
+.link-site {
+  color: gray;
+  font-size: 12px;
+}
+
+.link-title {
+  font-weight: bold;
+}

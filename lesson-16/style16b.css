@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.video-title{
+    color: purple;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.video-title:hover{
+    text-decoration: underline;
+}

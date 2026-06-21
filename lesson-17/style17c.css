@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: #fff;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 16px;
+  background: #0f0f0f;
+  border-bottom: 1px solid #303030;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.layout {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 24px;
+  color: #aaa;
+  line-height: 1.8;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background: #0f0f0f;
+  height: calc(100vh - 56px);
+  flex-shrink: 0;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.sidebar-item.active {
+  background: #272727;
+}
+
+.icon {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .sidebar {
+    width: 72px;
+    align-items: center;
+    padding: 8px 4px;
+    gap: 4px;
+  }
+
+  .sidebar-item {
+    flex-direction: column;
+    width: 64px;
+    padding: 10px 4px 8px;
+    gap: 4px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .label {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1200.1px) {
+  .sidebar {
+    width: 240px;
+    padding: 12px 8px;
+    gap: 2px;
+  }
+
+  .sidebar-item {
+    flex-direction: row;
+    padding: 10px 12px;
+    gap: 24px;
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 24px;
+  }
+
+  .label {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+
+.video-card{
+    width:350px;
+    background:rgb(27, 27, 27);
+    font-family:Arial, sans-serif;
+    box-shadow: 0 0 1px black;
+}
+
+.thumbnail{
+    width:100%;
+    display:block;
+}
+
+.video-info{
+    display:grid;
+    grid-template-columns:50px 1fr;
+    gap:10px;
+    padding:12px;
+}
+
+.profile{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+
+.text h3{
+    margin:0 0 8px;
+    font-size:14px;
+    line-height:20px;
+    font-weight:600;
+}
+
+.text p{
+    margin:0 0 4px;
+    color:#606060;
+    font-size:12px;
+}
+
+@media (min-width:1000px){
+
+    .text h3{
+        font-size:16px;
+        line-height:24px;
+    }
+
+    .text p{
+        font-size:14px;
+    }
+}
+
+.video-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+}

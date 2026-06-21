@@ -1,0 +1,22 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 5px; /* Mengatur jarak ke teks bawahnya */
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 400; /* Regular */
+  color: #393c41;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}

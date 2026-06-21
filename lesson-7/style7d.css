@@ -1,0 +1,7 @@
+input {
+            border: solid rgb(200, 200, 200);
+            border-radius: 5px;
+            padding: 8px 12px;
+            font-size: 14px;
+            width: 200px;
+        }

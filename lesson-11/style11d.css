@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-family: arial;
+}
+
+.card {
+    border: 1px solid #ccc;
+}
+
+.ftbs {
+    width: 100%;
+}
+
+.ftkc {
+    width: 100%;
+    border-radius: 200px;
+    margin-right: 18px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.mutual {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    font-size: 12px;
+    margin: 5px 0;
+    color: gray;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #145dbf;
+}

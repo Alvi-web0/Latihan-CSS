@@ -1,0 +1,39 @@
+h2 {
+        font-size: 32px;
+        margin-bottom: 25px;
+        font-weight: 500;
+    }
+
+    input {
+        width: 400px;
+        padding: 12px;
+        background-color: #eeeeee;
+        border: none;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+
+    button {
+        margin-top: 20px;
+        display: flex;
+        gap: 15px;
+    }
+
+    .black {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .grey {
+        background-color: #eeeeee;
+        color: black;
+        border: none;
+        padding: 12px 20px;
+        font-size: 14px;
+        cursor: pointer;
+    }

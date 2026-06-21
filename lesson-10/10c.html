@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout youtube</title>
+    <style>
+        .video {
+            display: flex;
+            width: 500px;
+            margin-bottom: 15px;
+            font-family: Arial, sans-serif;
+        }
+
+        img {
+            width: 200px;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+
+        .detail {
+            flex: 1;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 8px;
+            line-height: 1.2;
+        }
+
+        .autor, .stats {
+            font-size: 14px;
+            color: rgb(96, 96, 96);
+            margin: 4px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="video">
+        <img src="Self.png">
+
+        <div class="detail">
+            <p class="title">How to compete against CS degrees (as a self-taught dev)</p>
+            <p class="autor">SuperSimpleDev</p>
+            <p class="stats">1.5K views • 4 mounths ago</p>
+        </div>
+    </div>
+
+    <div class="video">
+        <img src="Which.png">
+
+        <div class="detail">
+            <p class="title">Which programming language to learn first 2022 (wth charts)</p>
+            <p class="autor">SuperSimpleDev</p>
+            <p class="stats">5.7K views • 11 mounths ago</p>
+        </div>
+    </div>
+
+    <div class="video">
+        <img src="What.png">
+
+        <div class="detail">
+            <p class="title">Fronted web develoment - a complete overview (2021)</p>
+            <p class="autor">SuperSimpleDev</p>
+            <p class="stats">1K views • 4 mounths ago</p>
+        </div>
+    </div>
+</body>
+</html>

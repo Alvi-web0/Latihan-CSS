@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 3000px;
+}
+
+.fixed-box{
+    width: 320px;
+    height: 180px;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.gray-box{
+    width: 220px;
+    height: 120px;
+    background-color: gray;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}

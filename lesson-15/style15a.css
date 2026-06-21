@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 3000px;
+}
+
+.container{
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+.close-btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

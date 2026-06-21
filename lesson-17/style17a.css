@@ -1,0 +1,54 @@
+.video-card{
+    width:350px;
+    background:white;
+    font-family:Arial, sans-serif;
+    box-shadow: 0 0 1px black;
+}
+
+.thumbnail{
+    width:100%;
+    display:block;
+}
+
+.video-info{
+    display:grid;
+    grid-template-columns:50px 1fr;
+    gap:10px;
+    padding:12px;
+}
+
+.profile{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+
+.text h3{
+    margin:0 0 8px;
+    font-size:14px;
+    line-height:20px;
+    font-weight:600;
+}
+
+.text p{
+    margin:0 0 4px;
+    color:#606060;
+    font-size:12px;
+}
+
+@media (min-width:1000px){
+
+    .text h3{
+        font-size:16px;
+        line-height:24px;
+    }
+
+    .text p{
+        font-size:14px;
+    }
+}
+
+.video-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+}

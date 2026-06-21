@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style17d.css">
+</head>
+<body>
+    <div class="layout">
+ 
+  <!-- LEFT NAV -->
+  <nav class="nav">
+    <div class="nav-logo">𝕏</div>
+    <div class="nav-item active"><span class="nav-icon">🏠</span><span class="label">Home</span></div>
+    <div class="nav-item"><span class="nav-icon">🔍</span><span class="label">Explore</span></div>
+    <div class="nav-item"><span class="nav-icon">🔔</span><span class="label">Notifications</span></div>
+    <div class="nav-item"><span class="nav-icon">✉️</span><span class="label">Messages</span></div>
+    <div class="nav-item"><span class="nav-icon">📋</span><span class="label">Grok</span></div>
+    <div class="nav-item"><span class="nav-icon">👤</span><span class="label">Profile</span></div>
+    <div class="nav-item"><span class="nav-icon">⋯</span><span class="label">More</span></div>
+    <button class="post-btn">Post</button>
+    <div class="nav-profile">
+      <div class="avatar-sm"></div>
+      <div>
+        <div class="nav-profile-name">Maya Putri</div>
+        <div class="nav-profile-handle">@mayaputri</div>
+      </div>
+    </div>
+  </nav>
+ 
+  <!-- MAIN FEED -->
+  <main class="main">
+    <header class="main-header">
+      <h1>Home</h1>
+      <div class="tabs">
+        <div class="tab active">For you</div>
+        <div class="tab">Following</div>
+      </div>
+    </header>
+ 
+    <div class="composer">
+      <div class="avatar" style="background:#533cea"></div>
+      <div style="flex:1">
+        <div class="composer-text">What's happening?</div>
+        <div class="composer-actions">
+          <div class="composer-icons">
+            <span>🖼️</span><span>🎞️</span><span>📊</span><span>😊</span><span>📅</span><span>📍</span>
+          </div>
+          <button class="tweet-btn">Post</button>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Tweet 1 -->
+    <article class="tweet">
+      <div class="avatar" style="background:#e0245e"></div>
+      <div class="tweet-body">
+        <div class="tweet-meta">
+          <span class="name">Rina Sutanto</span><span class="badge">✔</span>
+          <span>@rinasutanto · 2h</span>
+        </div>
+        <div class="tweet-text">Finally finished the redesign for our app's onboarding flow. Three weeks of iteration but it was worth it 🙌</div>
+        <div class="tweet-actions">
+          <div class="action reply">💬 <span>128</span></div>
+          <div class="action retweet">🔁 <span>312</span></div>
+          <div class="action like">❤️ <span>2.4K</span></div>
+          <div class="action share">📤</div>
+        </div>
+      </div>
+    </article>
+ 
+    <!-- Tweet 2 -->
+    <article class="tweet">
+      <div class="avatar" style="background:#17bf63"></div>
+      <div class="tweet-body">
+        <div class="tweet-meta">
+          <span class="name">Budi Hartono</span>
+          <span>@budihartono · 4h</span>
+        </div>
+        <div class="tweet-text">Hot take: the best debugging tool is still just a good night's sleep and coming back to the problem in the morning.</div>
+        <div class="tweet-actions">
+          <div class="action reply">💬 <span>45</span></div>
+          <div class="action retweet">🔁 <span>89</span></div>
+          <div class="action like">❤️ <span>1.1K</span></div>
+          <div class="action share">📤</div>
+        </div>
+      </div>
+    </article>
+ 
+    <!-- Tweet 3 with image -->
+    <article class="tweet">
+      <div class="avatar" style="background:#f1c40f"></div>
+      <div class="tweet-body">
+        <div class="tweet-meta">
+          <span class="name">Jakarta Weather</span><span class="badge">✔</span>
+          <span>@jktweather · 6h</span>
+        </div>
+        <div class="tweet-text">Sunset over the city tonight was unreal 🌇 Sending the view your way.</div>
+        <div class="tweet-img" style="background:linear-gradient(135deg,#ff9966,#ff5e62,#4a2545);"></div>
+        <div class="tweet-actions">
+          <div class="action reply">💬 <span>302</span></div>
+          <div class="action retweet">🔁 <span>1.8K</span></div>
+          <div class="action like">❤️ <span>9.7K</span></div>
+          <div class="action share">📤</div>
+        </div>
+      </div>
+    </article>
+ 
+    <!-- Tweet 4 -->
+    <article class="tweet">
+      <div class="avatar" style="background:#3498db"></div>
+      <div class="tweet-body">
+        <div class="tweet-meta">
+          <span class="name">Dewi Lestari</span>
+          <span>@dewilestari · 8h</span>
+        </div>
+        <div class="tweet-text">Reminder that "done" is better than "perfect," especially when you're learning something new. Ship it, then iterate.</div>
+        <div class="tweet-actions">
+          <div class="action reply">💬 <span>67</span></div>
+          <div class="action retweet">🔁 <span>210</span></div>
+          <div class="action like">❤️ <span>3.3K</span></div>
+          <div class="action share">📤</div>
+        </div>
+      </div>
+    </article>
+ 
+  </main>
+ 
+  <!-- RIGHT SIDEBAR -->
+  <aside class="right">
+    <div class="search-box">
+      <span>🔍</span>
+      <input type="text" placeholder="Search">
+    </div>
+ 
+    <div class="panel">
+      <h2>What's happening</h2>
+      <div class="trend">
+        <div class="cat">Technology · Trending</div>
+        <div class="topic">#WebDevelopment</div>
+        <div class="count">42.1K posts</div>
+      </div>
+      <div class="trend">
+        <div class="cat">Trending in Indonesia</div>
+        <div class="topic">Jakarta</div>
+        <div class="count">18.5K posts</div>
+      </div>
+      <div class="trend">
+        <div class="cat">Sports · Trending</div>
+        <div class="topic">#PremierLeague</div>
+        <div class="count">120K posts</div>
+      </div>
+      <div class="show-more">Show more</div>
+    </div>
+ 
+    <div class="panel">
+      <h2>Who to follow</h2>
+      <div class="follow-row">
+        <div class="avatar-sm" style="background:#9b59b6"></div>
+        <div class="follow-info">
+          <div class="follow-name">Anton Wijaya</div>
+          <div class="follow-handle">@antonwijaya</div>
+        </div>
+        <button class="follow-btn">Follow</button>
+      </div>
+      <div class="follow-row">
+        <div class="avatar-sm" style="background:#1abc9c"></div>
+        <div class="follow-info">
+          <div class="follow-name">Sari Indah</div>
+          <div class="follow-handle">@sariindah</div>
+        </div>
+        <button class="follow-btn">Follow</button>
+      </div>
+      <div class="show-more">Show more</div>
+    </div>
+ 
+    <div class="footer-links">
+      <span>Terms of Service</span><span>Privacy Policy</span><span>Cookie Policy</span>
+      <span>Accessibility</span><span>Ads info</span><span>More ···</span>
+      <span>© 2026 X Corp.</span>
+    </div>
+  </aside>
+ 
+</div>
+</body>
+</html>
